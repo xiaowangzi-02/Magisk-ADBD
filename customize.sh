@@ -61,10 +61,3 @@ set_permissions() {
   # set_perm /data/local/tmp/file.txt 0 0 644
 }
 
-##########################################################################################
-# MMT Extended Logic - Don't modify anything after this
-##########################################################################################
-
-SKIPUNZIP=1
-unzip -qjo "$ZIPFILE" 'common/functions.sh' -d $TMPDIR >&2
-. $TMPDIR/functions.sh
