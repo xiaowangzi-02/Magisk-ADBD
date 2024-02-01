@@ -1,6 +1,6 @@
-id=ADBD
+id=adbd
 name=ADB Wireless Server
 version=v0.1
 versionCode=1
 author=2233
-description=An ADB server linstening on 5555 port.
+description=An ADB server listening on 5555 port.
